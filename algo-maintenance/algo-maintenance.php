@@ -3,7 +3,7 @@
 Plugin Name: ALGO Maintenance Mode
 Plugin URI: https://algoit.co.uk/plugins/maintenance-mode
 Description: ALGO IT Solutions Special Maintenance Mode
-Version: 1.2
+Version: 1.3
 Author: Memba Co.
 Author URI: https://algoit.co.uk
 License: GPL v2 or later

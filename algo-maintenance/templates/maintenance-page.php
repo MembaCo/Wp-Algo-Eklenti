@@ -4,10 +4,10 @@ if (!defined('ABSPATH')) {
 }
 
 $social = get_option('algo_maintenance_social', array(
-    'facebook' => 'https://www.facebook.com/AlgoBilisim',
-    'twitter' => 'https://twitter.com/AlgoBilisim',
-    'google' => '#',
-    'instagram' => '#'
+    'facebook' => 'https://www.facebook.com/AlgoItSolutions',
+    'twitter' => 'https://twitter.com/AlgoItSolutions',
+    'google' => 'https://google.com/AlgoItSolutions',
+    'instagram' => 'https://instegram.com/AlgoItSolutions'
 ));
 ?>
 <!DOCTYPE html>
@@ -18,6 +18,8 @@ $social = get_option('algo_maintenance_social', array(
     <meta name="description" content="ALGO - IT Solutions Design and Development">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Memba Co.">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400,400i,700,700i|Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__) . 'assets/css/style.css'; ?>">
     <?php wp_head(); ?>
 </head>
 
@@ -90,7 +92,7 @@ $social = get_option('algo_maintenance_social', array(
         <p>
             <strong>ALGO - IT Solutions Design and Development</strong><br>
             <br>
-            <a href="https://algobilisim.com" target="_blank">ALGO IT Solutions</a> © 2021-<?php echo date('Y'); ?> | Technology for you.
+            <a href="https://algoit.co.uk" target="_blank">ALGO IT Solutions</a> © 2021-<?php echo date('Y'); ?> | Technology for you.
         </p>
     </div>
 
