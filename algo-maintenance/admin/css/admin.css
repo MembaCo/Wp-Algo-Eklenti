@@ -1,0 +1,19 @@
+.algo-maintenance-settings .form-table th {
+    width: 200px;
+}
+
+.algo-maintenance-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.algo-maintenance-settings .label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 600;
+}
+
+.algo-maintenance-settings .description {
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+}
